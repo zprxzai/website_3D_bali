@@ -1,3 +1,7 @@
+body{
+  background-color: #fff;
+  overflow-x: hidden;
+}
 .kepala{
   font-family: "Pacifico", cursive;
   font-weight: 400;
@@ -8,7 +12,13 @@
 .navbar {
     background-color: rgb(0, 0, 0, 0.6);
     border-bottom: 1px solid black;
+position: fixed ;
+z-index: 1000;
+top: 0 ;
+width: 100%;
+
   }
+  
   .navbar a{
     color: #fff;
     font-family:" Bona Nova SC", serif;
@@ -51,6 +61,25 @@
 
 video{
 height: 600px;
-width: 1000px;
+width: 900px;
 margin-top: -20px;
 }
+.piece{
+  height: 150px;
+  background-color: orange;
+  font-family: "Lobster", sans-serif;
+
+}
+.piece2{
+  height: 150px;
+  background-color: orange;
+  font-family: "Lobster", sans-serif;
+margin-top: 250px;
+}
+model-viewer{
+  width: 400px;
+  height: 500px;
+  margin-top: 100px;
+  margin-left: 900px;
+}
+
