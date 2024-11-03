@@ -16,6 +16,7 @@ position: fixed !important;
 z-index: 1000;
 top: 0 ;
 width: 100%;
+transition: 0.5s;
 
   }
   
@@ -26,6 +27,12 @@ width: 100%;
   .navbar-brand {
     margin-left: 20px;
   }
+  
+  .navbar.closed {
+    transition: 2s;
+    top: -1600px;
+  }
+
   .nav-link {
     text-align: center;
     margin-left: 200px;
@@ -80,10 +87,11 @@ margin-top: 250px;
   width: 400px;
   height: 500px;
   margin-top: 10px;
-  margin-left: 900px;
+  margin-left: 1000px;
 }
 .d32{
   width: 400px;
   height: 500px;
   margin-top: 10px;
+  margin-left: 30px;
 }
